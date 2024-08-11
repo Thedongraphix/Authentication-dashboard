@@ -17,6 +17,17 @@ body {
     padding-top: 80px; /* Adjusted for fixed navbar */
 }
 
+.message {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    margin: 10px 0; 
+    text-align: center;
+}
+
+
 /* Navbar Styling */
 .navbar {
     width: 100%;
@@ -180,6 +191,10 @@ body {
     width: 100%;
 }
 
+.forgot a { 
+    color: #555; 
+    font-size: 14px;
+}
 /* Section Styling */
 section {
     display: flex;
